@@ -1,22 +1,47 @@
 # win-safe-cleanup
 Clean your Windows PC by safely removing all temporary files to free up storage space.
 
+# ⚙️ Windows 11 Safe Full Automation Cleanup Script
 
-⚙️ 2. FULL AUTOMATION POWER SHELL CLEANUP SCRIPT (SAFE VERSION)
+A safe and industry-standard PowerShell script to clean unnecessary files and free up disk space on Windows 11 without breaking system stability.
 
-This script does industry-safe cleanup only:
+---
 
-Temp files
-Windows temp
-Recycle Bin
-Windows Update cache (safe reset)
-Prefetch cleanup (optional safe)
-DNS cache flush
-Hibernation disable (optional space gain)
-💻 COPY THIS SCRIPT (Run as Administrator)
+## 🚀 What This Script Does
 
-Open PowerShell (Admin) and paste:
+This automation performs **safe system cleanup only**, including:
 
+- 🧹 Temporary files (User + Windows Temp)
+- 🗑️ Recycle Bin cleanup
+- 🧰 Windows Update cache reset (safe)
+- ⚡ Prefetch cleanup (safe, auto-rebuilds)
+- 🌐 DNS cache flush
+- 💾 Optional: Disable hibernation (frees disk space)
+
+---
+
+## ⚠️ Important
+
+- Run **PowerShell as Administrator**
+- Safe for daily use
+- Does NOT delete personal files
+- Windows will automatically rebuild required caches
+
+---
+
+## 💻 How to Use
+
+1. Open **Start Menu**
+2. Search **PowerShell**
+3. Right-click → **Run as Administrator**
+4. Paste the script below
+5. Press **Enter**
+
+---
+
+## 🧾 Full Script
+
+```powershell
 # ================================
 # SAFE WINDOWS 11 CLEANUP SCRIPT
 # ================================
